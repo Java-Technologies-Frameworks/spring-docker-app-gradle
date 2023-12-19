@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY build/libs/* build/lib/
 
-COPY build/libs/spring-boot-docker-gradle-app-1.0.0 build/
+COPY build/libs/spring-boot-docker-gradle-app-1.0.0.jar build/
 
 WORKDIR /app/build
 
